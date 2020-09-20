@@ -1,0 +1,30 @@
+.Home{
+  animation-name: homeAnimation;
+  animation-duration: 1s;
+}
+
+@keyframes homeAnimation{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+.Body-text{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    text-align: start;
+    animation-name: bodyText;
+    animation-duration: 2s;
+}
+
+@keyframes bodyText{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+
+#body-head{
+    margin-top: 10rem;
+    animation-name: bodyText;
+    animation-duration: 5s;
+}
